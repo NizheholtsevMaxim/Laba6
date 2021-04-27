@@ -1,0 +1,12 @@
+OpenServer:
+php 5.5
+apache 5.5
++mongoDB
+
+click on \3.6\bin\mongod.exe
+
+1.use forlabdb
+2.db.literature.insert({ID_Book: '1', name: 'Физика', year: '2005', author: 'Иванов И. М.'})
+
+
+composer require mongodb/mongodb
